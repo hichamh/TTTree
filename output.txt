@@ -1,0 +1,127 @@
+successfully added item : 91
+successfully added item : 32
+item 32 already existent.
+item 91 already existent.
+successfully added item : 702
+------------------------------------------------------------
+Node :  depth = 0
+key 1 : 91 , key 2 : 702 , parent key 1: -1 , first node key 1 : 32 , second node key 1 : 91 , third node key 1 : 702 
+Node :  depth = 1
+key 1 : 32 , key 2 : -1 , parent key 1: 91 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 1
+key 1 : 91 , key 2 : -1 , parent key 1: 91 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 1
+key 1 : 702 , key 2 : -1 , parent key 1: 91 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+------------------------------------------------------------
+successfully added item : 8
+successfully added item : 999
+successfully added item : 12
+------------------------------------------------------------
+Node :  depth = 0
+key 1 : 91 , key 2 : -1 , parent key 1: -1 , first node key 1 : 12 , second node key 1 : 702 , third node key 1 : -1 
+Node :  depth = 1
+key 1 : 12 , key 2 : 32 , parent key 1: 91 , first node key 1 : 8 , second node key 1 : 12 , third node key 1 : 32 
+Node :  depth = 2
+key 1 : 8 , key 2 : -1 , parent key 1: 12 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 2
+key 1 : 12 , key 2 : -1 , parent key 1: 12 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 2
+key 1 : 32 , key 2 : -1 , parent key 1: 12 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 1
+key 1 : 702 , key 2 : 999 , parent key 1: 91 , first node key 1 : 91 , second node key 1 : 702 , third node key 1 : 999 
+Node :  depth = 2
+key 1 : 91 , key 2 : -1 , parent key 1: 702 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 2
+key 1 : 702 , key 2 : -1 , parent key 1: 702 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 2
+key 1 : 999 , key 2 : -1 , parent key 1: 702 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+------------------------------------------------------------
+successfully added item : 133
+successfully added item : 14
+successfully added item : 42
+------------------------------------------------------------
+Node :  depth = 0
+key 1 : 91 , key 2 : -1 , parent key 1: -1 , first node key 1 : 14 , second node key 1 : 702 , third node key 1 : -1 
+Node :  depth = 1
+key 1 : 14 , key 2 : -1 , parent key 1: 91 , first node key 1 : 12 , second node key 1 : 32 , third node key 1 : -1 
+Node :  depth = 2
+key 1 : 12 , key 2 : -1 , parent key 1: 14 , first node key 1 : 8 , second node key 1 : 12 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 8 , key 2 : -1 , parent key 1: 12 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 12 , key 2 : -1 , parent key 1: 12 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 2
+key 1 : 32 , key 2 : 42 , parent key 1: 14 , first node key 1 : 14 , second node key 1 : 32 , third node key 1 : 42 
+Node :  depth = 3
+key 1 : 14 , key 2 : -1 , parent key 1: 32 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 32 , key 2 : -1 , parent key 1: 32 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 42 , key 2 : -1 , parent key 1: 32 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 1
+key 1 : 702 , key 2 : -1 , parent key 1: 91 , first node key 1 : 133 , second node key 1 : 999 , third node key 1 : -1 
+Node :  depth = 2
+key 1 : 133 , key 2 : -1 , parent key 1: 702 , first node key 1 : 91 , second node key 1 : 133 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 91 , key 2 : -1 , parent key 1: 133 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 133 , key 2 : -1 , parent key 1: 133 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 2
+key 1 : 999 , key 2 : -1 , parent key 1: 702 , first node key 1 : 702 , second node key 1 : 999 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 702 , key 2 : -1 , parent key 1: 999 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 999 , key 2 : -1 , parent key 1: 999 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+------------------------------------------------------------
+successfully added item : 213
+successfully added item : 23
+successfully added item : 124
+item 133 already existent.
+------------------------------------------------------------
+Node :  depth = 0
+key 1 : 91 , key 2 : -1 , parent key 1: -1 , first node key 1 : 14 , second node key 1 : 133 , third node key 1 : -1 
+Node :  depth = 1
+key 1 : 14 , key 2 : 32 , parent key 1: 91 , first node key 1 : 12 , second node key 1 : 23 , third node key 1 : 42 
+Node :  depth = 2
+key 1 : 12 , key 2 : -1 , parent key 1: 14 , first node key 1 : 8 , second node key 1 : 12 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 8 , key 2 : -1 , parent key 1: 12 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 12 , key 2 : -1 , parent key 1: 12 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 2
+key 1 : 23 , key 2 : -1 , parent key 1: 14 , first node key 1 : 14 , second node key 1 : 23 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 14 , key 2 : -1 , parent key 1: 23 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 23 , key 2 : -1 , parent key 1: 23 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 2
+key 1 : 42 , key 2 : -1 , parent key 1: 14 , first node key 1 : 32 , second node key 1 : 42 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 32 , key 2 : -1 , parent key 1: 42 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 42 , key 2 : -1 , parent key 1: 42 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 1
+key 1 : 133 , key 2 : 702 , parent key 1: 91 , first node key 1 : 124 , second node key 1 : 213 , third node key 1 : 999 
+Node :  depth = 2
+key 1 : 124 , key 2 : -1 , parent key 1: 133 , first node key 1 : 91 , second node key 1 : 124 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 91 , key 2 : -1 , parent key 1: 124 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 124 , key 2 : -1 , parent key 1: 124 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 2
+key 1 : 213 , key 2 : -1 , parent key 1: 133 , first node key 1 : 133 , second node key 1 : 213 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 133 , key 2 : -1 , parent key 1: 213 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 213 , key 2 : -1 , parent key 1: 213 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 2
+key 1 : 999 , key 2 : -1 , parent key 1: 133 , first node key 1 : 702 , second node key 1 : 999 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 702 , key 2 : -1 , parent key 1: 999 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+Node :  depth = 3
+key 1 : 999 , key 2 : -1 , parent key 1: 999 , first node key 1 : -1 , second node key 1 : -1 , third node key 1 : -1 
+------------------------------------------------------------
+item 32 found.
+item 133 found.
+item 124 found.
+item 555 not found.
